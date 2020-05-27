@@ -1,14 +1,14 @@
 import React from 'react'
-import { Container, Column, Row } from '../../components/styles'
+import { Grid, Col, Row } from '../../components/styles'
 
 const HomePage = () => {
   return (
-    <Container>
+    <Grid>
       <Row>
-        <Column grid="8">GRID 5</Column>
-        <Column grid="4">GRID 5</Column>
+        <Col size={1}>GRID 5</Col>
+        <Col size={2}>GRID 5</Col>
       </Row>
-    </Container>
+    </Grid>
   )
 }
 
